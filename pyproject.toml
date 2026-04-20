@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "blog-post-generator-app"
+version = "0.1.0"
+description = "An generative application that can generate a formal blog post with fixed length around a particular keyword"
+authors = ["Dev-Ayush-Stack <dev.ayushpandey.0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+streamlit = "^1.56.0"
+langchain = "0.2.11"
+langchain-openai = "0.1.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
